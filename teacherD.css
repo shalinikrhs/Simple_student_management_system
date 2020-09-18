@@ -1,0 +1,100 @@
+h1{
+    align-items: center;
+    color: blue;
+}
+.tDetails{
+    position: relative;
+    width: 25%;
+    height:100%;
+    padding:50px;
+    margin:12%;
+    margin-left: 35%;
+    background:  gray;
+    color:#050505fb;
+    align-items: center;
+    text-align: center;
+    border-color:2px  rgba(14, 13, 13, 0.616);
+    border-radius: 15%;
+    border-block-end-style: solid;
+}
+.tDetails label{
+    background: gray;
+    display:block;
+    text-align: center;
+    margin:3px;
+    font-size: 150%;
+    color: rgb(1, 1, 17);
+}
+.tDetails input{
+    height:30px;
+    width:70%;
+    padding:9px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:1px solid rgba(34, 1, 21, 0.849)   
+}
+/*.save{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: rgba(36, 1, 100, 0.952)   ;
+    border:none;
+    border-radius: 5px;
+}*/
+button{
+    padding: 9px 25px;
+    background-color: rgb(17, 16, 16);
+    border: none;
+    border-radius: 50px;
+    transition:all 0.3s ease 0s;
+    cursor:pointer;
+    border-color: aqua;
+}
+.table_detail table{
+    width: 95%;
+    margin:10px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+.table_detail tr{
+    border-bottom: 1px solid  rgba(19, 11, 10, 0.63);
+}
+.table_detail th{
+    font-family: Courier New, Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+    border:none;
+    height:30px;
+    padding:5px;
+    font-size: 20px;
+    color:rgb(255, 0, 0);
+}
+.table_detail td{
+    font-family: Courier New, Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+    border:none;
+    height:30px;
+    padding:5px;
+    font-size: 20px;
+
+}
+
+.green, a{
+    padding: 3px 10px;
+    background-color: rgb(8, 248, 8);
+    border: none;
+    border-radius: 50px;
+    transition:all 0.3s ease 0s;
+    cursor:pointer;
+    border-color: rgb(233, 238, 238);
+}
+.danger,a{
+    padding: 3px 10px;
+    background-color: rgb(253, 21, 5);
+    border: none;
+    border-radius: 50px;
+    transition:all 0.3s ease 0s;
+    cursor:pointer;
+    border-color: rgb(247, 247, 247);
+}

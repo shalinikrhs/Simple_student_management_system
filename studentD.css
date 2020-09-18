@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(248, 247, 248, 0.171);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    align-items: center;
+    color: blue;
+}
+.table_detail table{
+    width:95%;
+    margin:10px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+.table_detail tr{
+    border-bottom: 1px solid  rgba(13, 14, 51, 0.733);
+}
+.table_detail th{
+    font-family: Courier New, Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+    border:none;
+    height:30px;
+    padding:2px;
+    font-size: 20px;
+    color:rgb(219, 36, 4);
+}
+.table_detail td{
+    border:none;
+    height:30px;
+    padding:2px;
+    font-size: 20px;
+
+}
+.table_detail tr:hover{
+    background: rgba(19, 15, 238, 0.123);
+}
+   

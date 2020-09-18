@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(231, 210, 169, 0.171);
+
+}
+.create{
+    position: relative;
+    width: 25%;
+    height:100%;
+    padding:30px;
+    margin:5%;
+    margin-left: 35%;
+    background: rgba(94, 3, 102, 0.29);
+    color:#fcfcfcfb;
+    align-items: center;
+    text-align: center;
+    border-color: rgb(133, 7, 145);
+    border-radius: 15%;
+    border-block-end-style: solid;
+}
+.create h1,label{
+    display:block;
+    text-align: center;
+    margin:3px;
+    font-size: 150%;
+}
+.create input{
+    height:30px;
+    width:70%;
+    padding:5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:1px solid rgba(241, 14, 154, 0.849)   
+}
+.create select{
+    height:30px;
+    width:70%;
+    padding:5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:1px solid rgba(241, 14, 154, 0.849)   
+}
+.create option{
+    height:30px;
+    width:70%;
+    padding:5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:1px solid rgba(241, 14, 154, 0.849)   
+}
+
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: rgba(234, 14, 241, 0.733)   ;
+    border:none;
+    border-radius: 5px;
+}
+
